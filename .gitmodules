@@ -1,0 +1,6 @@
+[submodule "libraries/libogg"]
+	path = libraries/libogg
+	url = https://github.com/gypified/libogg
+[submodule "libraries/libvorbis"]
+	path = libraries/libvorbis
+	url = https://github.com/gypified/libvorbis

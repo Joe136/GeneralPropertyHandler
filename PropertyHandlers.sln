@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GeneralPropertyHandler", "GeneralPropertyHandler\GeneralPropertyHandler.vcxproj", "{7E1518F0-CFAA-41E5-9A5E-8B1A8291ECB7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{09D72926-0256-4F89-81AC-DFC7038FE9E7} = {09D72926-0256-4F89-81AC-DFC7038FE9E7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VorbisPropertyHandler", "VorbisPropertyHandler\VorbisPropertyHandler.vcxproj", "{09D72926-0256-4F89-81AC-DFC7038FE9E7}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD} = {3A214E06-B95E-4D61-A291-1F8DF2EC10FD}
+		{15CBFEFF-7965-41F5-B4E2-21E8795C9159} = {15CBFEFF-7965-41F5-B4E2-21E8795C9159}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libogg_static", "libraries\libogg\win32\VS2010\libogg_static.vcxproj", "{15CBFEFF-7965-41F5-B4E2-21E8795C9159}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libvorbis_static", "libraries\libvorbis\win32\VS2010\libvorbis\libvorbis_static.vcxproj", "{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}"
+	ProjectSection(ProjectDependencies) = postProject
+		{15CBFEFF-7965-41F5-B4E2-21E8795C9159} = {15CBFEFF-7965-41F5-B4E2-21E8795C9159}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E1518F0-CFAA-41E5-9A5E-8B1A8291ECB7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7E1518F0-CFAA-41E5-9A5E-8B1A8291ECB7}.Debug|Win32.Build.0 = Debug|Win32
+		{7E1518F0-CFAA-41E5-9A5E-8B1A8291ECB7}.Debug|x64.ActiveCfg = Debug|x64
+		{7E1518F0-CFAA-41E5-9A5E-8B1A8291ECB7}.Debug|x64.Build.0 = Debug|x64
+		{7E1518F0-CFAA-41E5-9A5E-8B1A8291ECB7}.Release|Win32.ActiveCfg = Release|Win32
+		{7E1518F0-CFAA-41E5-9A5E-8B1A8291ECB7}.Release|Win32.Build.0 = Release|Win32
+		{7E1518F0-CFAA-41E5-9A5E-8B1A8291ECB7}.Release|x64.ActiveCfg = Release|x64
+		{7E1518F0-CFAA-41E5-9A5E-8B1A8291ECB7}.Release|x64.Build.0 = Release|x64
+		{09D72926-0256-4F89-81AC-DFC7038FE9E7}.Debug|Win32.ActiveCfg = Debug|Win32
+		{09D72926-0256-4F89-81AC-DFC7038FE9E7}.Debug|Win32.Build.0 = Debug|Win32
+		{09D72926-0256-4F89-81AC-DFC7038FE9E7}.Debug|x64.ActiveCfg = Debug|x64
+		{09D72926-0256-4F89-81AC-DFC7038FE9E7}.Debug|x64.Build.0 = Debug|x64
+		{09D72926-0256-4F89-81AC-DFC7038FE9E7}.Release|Win32.ActiveCfg = Release|Win32
+		{09D72926-0256-4F89-81AC-DFC7038FE9E7}.Release|Win32.Build.0 = Release|Win32
+		{09D72926-0256-4F89-81AC-DFC7038FE9E7}.Release|x64.ActiveCfg = Release|x64
+		{09D72926-0256-4F89-81AC-DFC7038FE9E7}.Release|x64.Build.0 = Release|x64
+		{15CBFEFF-7965-41F5-B4E2-21E8795C9159}.Debug|Win32.ActiveCfg = Debug|Win32
+		{15CBFEFF-7965-41F5-B4E2-21E8795C9159}.Debug|Win32.Build.0 = Debug|Win32
+		{15CBFEFF-7965-41F5-B4E2-21E8795C9159}.Debug|x64.ActiveCfg = Debug|x64
+		{15CBFEFF-7965-41F5-B4E2-21E8795C9159}.Debug|x64.Build.0 = Debug|x64
+		{15CBFEFF-7965-41F5-B4E2-21E8795C9159}.Release|Win32.ActiveCfg = Release|Win32
+		{15CBFEFF-7965-41F5-B4E2-21E8795C9159}.Release|Win32.Build.0 = Release|Win32
+		{15CBFEFF-7965-41F5-B4E2-21E8795C9159}.Release|x64.ActiveCfg = Release|x64
+		{15CBFEFF-7965-41F5-B4E2-21E8795C9159}.Release|x64.Build.0 = Release|x64
+		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}.Debug|Win32.Build.0 = Debug|Win32
+		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}.Debug|x64.ActiveCfg = Debug|x64
+		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}.Debug|x64.Build.0 = Debug|x64
+		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}.Release|Win32.ActiveCfg = Release|Win32
+		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}.Release|Win32.Build.0 = Release|Win32
+		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}.Release|x64.ActiveCfg = Release|x64
+		{3A214E06-B95E-4D61-A291-1F8DF2EC10FD}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

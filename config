@@ -1,0 +1,12 @@
+
+#pragma once
+
+#include "VorbisPropertyHandler/VorbisPropertyHandler.h"
+
+
+
+void GeneralPropertyHandler::registerPropertyHandlers () {
+
+   GeneralPropertyHandler::Register<VorbisPropertyHandler> ();
+
+}
